@@ -1,77 +1,78 @@
 /* Minimal styling for a clean, externally facing handout */
 
 :root {
-  --toc-border: #e6e6e6;
-  --toc-link: #0366d6;
-  --toc-active: #111;
-  --page-bg: #fff;
+    --toc-border: #e6e6e6;
+    --toc-link: #0366d6;
+    --toc-active: #111;
+    --page-bg: #fff;
 }
 
 body {
-  background: var(--page-bg);
-  padding-bottom: 70px; /* space for fixed footer */
+    background: var(--page-bg);
+    padding-bottom: 70px;
+    /* space for fixed footer */
 }
 
 .bg-gray {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 .title {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .extra-padding {
-  padding-top: 0.25rem;
+    padding-top: 0.25rem;
 }
 
 .toc {
-  font-size: 0.95rem;
-  border-left: 3px solid var(--toc-border);
-  padding-left: 0.75rem;
-  margin-top: 0.75rem;
+    font-size: 0.95rem;
+    border-left: 3px solid var(--toc-border);
+    padding-left: 0.75rem;
+    margin-top: 0.75rem;
 }
 
 .toc-title {
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: #666;
-  margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #666;
+    margin-bottom: 0.5rem;
 }
 
 .toc .nav-link {
-  padding: 0.15rem 0;
-  color: var(--toc-link);
+    padding: 0.15rem 0;
+    color: var(--toc-link);
 }
 
 .toc .nav-link.active {
-  font-weight: 600;
-  color: var(--toc-active);
+    font-weight: 600;
+    color: var(--toc-active);
 }
 
 .toc .toc-level-3 {
-  padding-left: 0.75rem;
+    padding-left: 0.75rem;
 }
 
 .toc .toc-level-4 {
-  padding-left: 1.25rem;
+    padding-left: 1.25rem;
 }
 
 pre {
-  background: #f7f7f7;
-  border: 1px solid #eee;
-  border-radius: 6px;
-  padding: 0.75rem;
+    background: #f7f7f7;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 0.75rem;
 }
 
 code {
-  font-size: 0.95em;
+    font-size: 0.95em;
 }
 
 @media (max-width: 575.98px) {
-  .toc {
-    border-left: none;
-    padding-left: 0;
-    margin-bottom: 1rem;
-  }
+    .toc {
+        border-left: none;
+        padding-left: 0;
+        margin-bottom: 1rem;
+    }
 }
